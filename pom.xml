@@ -8,5 +8,18 @@
         <module>child1</module>
         <module>child2</module>
     </modules>
-
+    <scm>
+        <developerConnection>https://github.com/g2consulting/test.git</developerConnection>
+    </scm>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.4.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
