@@ -9,7 +9,7 @@
         <module>child2</module>
     </modules>
     <scm>
-        <developerConnection>https://github.com/g2consulting/test.git</developerConnection>
+        <developerConnection>scm:git:git@github.com/g2consulting/test.git</developerConnection>
     </scm>
     <build>
         <pluginManagement>
